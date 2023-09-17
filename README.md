@@ -18,4 +18,17 @@ If we want to host a website on our device only and make it accessible to the wh
 * So by doing so, you can host your website on the localhost(means on your IP address) at a particular port say 10000. Now do port forwarding such that when ever a router receives a request to a particular port lets say 8000, it should redirect that request to the port 10000 of your device.
 * So when somebody wants to access the website which you are running on the localhost, then they should send the request to the 8000th port of your router which automaticaly forwards it to your device's 10000th port where your website is running.
 Like this your computer can become a server.
+
+### How to do PORT FORWARDING
+
+* For this we need to get the router web interface. So run the following command in the terminal(Linux).
+  <br>
+  
+        ip route | grep default
+  
+  <br>
+  Enter the IP address which you will get after running the above command in the browser to get the web interface of the router.
+  
+![image](https://github.com/sanjeevholla26/Port-Forwarding/assets/104841119/9f028cdb-2f2c-49c8-9eee-96b3f9b74e6a)
+
    
