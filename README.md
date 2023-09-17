@@ -31,4 +31,20 @@ Like this your computer can become a server.
   
 ![image](https://github.com/sanjeevholla26/Port-Forwarding/assets/104841119/9f028cdb-2f2c-49c8-9eee-96b3f9b74e6a)
 
+* Now you need to enter the default usename and password for your router. (Remember its not the same as your username and password of your wifi. Search in google to get them).
+  <br>
+
+  ![image](https://github.com/sanjeevholla26/Port-Forwarding/assets/104841119/9e0cd180-4256-4f69-a540-9a75eeaa238d)
+
+* Now go to Application and there select Port forwarding
+
+  ![image](https://github.com/sanjeevholla26/Port-Forwarding/assets/104841119/5644ce31-4f40-4fce-9be7-c2bdd2ee7a95)
+
+* Now here you need to give the details in order to do the PORT FORWARDING.
+* ***WAN-Port*** - The port of the router which will be listening for the request.
+* ***LAN-Port*** - The port of the device to which the router will forward the request to.
+* ***Internal client*** - To which device lan port the request should be forwarded to.
+
+
+
    
